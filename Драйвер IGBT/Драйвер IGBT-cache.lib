@@ -282,11 +282,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Драйвер-IGBT-rescue_ISO54-Driver-Driver_SiC-rescue-Драйвер-IGBT-rescue
+# Драйвер-IGBT-rescue_ISO54-Driver-Driver_SiC-rescue-Драйвер-IGBT-rescue-Драйвер-IGBT-rescue
 #
-DEF Драйвер-IGBT-rescue_ISO54-Driver-Driver_SiC-rescue-Драйвер-IGBT-rescue D 0 40 Y Y 1 F N
+DEF Драйвер-IGBT-rescue_ISO54-Driver-Driver_SiC-rescue-Драйвер-IGBT-rescue-Драйвер-IGBT-rescue D 0 40 Y Y 1 F N
 F0 "D" 0 0 50 H V C CNN
-F1 "Драйвер-IGBT-rescue_ISO54-Driver-Driver_SiC-rescue-Драйвер-IGBT-rescue" 0 -100 50 H V C CNN
+F1 "Драйвер-IGBT-rescue_ISO54-Driver-Driver_SiC-rescue-Драйвер-IGBT-rescue-Драйвер-IGBT-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -310,11 +310,11 @@ X GND1 9 -350 -400 100 R 50 39 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Драйвер-IGBT-rescue_LPSR_50-NP-LPSR-cache-Драйвер-IGBT-rescue
+# Драйвер-IGBT-rescue_LPSR_50-NP-LPSR-cache-Драйвер-IGBT-rescue-Драйвер-IGBT-rescue
 #
-DEF Драйвер-IGBT-rescue_LPSR_50-NP-LPSR-cache-Драйвер-IGBT-rescue D 0 40 Y Y 1 F N
+DEF Драйвер-IGBT-rescue_LPSR_50-NP-LPSR-cache-Драйвер-IGBT-rescue-Драйвер-IGBT-rescue D 0 40 Y Y 1 F N
 F0 "D" 0 0 50 H V C CNN
-F1 "Драйвер-IGBT-rescue_LPSR_50-NP-LPSR-cache-Драйвер-IGBT-rescue" 0 -100 50 H V C CNN
+F1 "Драйвер-IGBT-rescue_LPSR_50-NP-LPSR-cache-Драйвер-IGBT-rescue-Драйвер-IGBT-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

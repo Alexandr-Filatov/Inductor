@@ -1,0 +1,1265 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title "Регулятор тока обмотки возбуждения"
+Date "2021-12-14"
+Rev ""
+Comp "ООО \"ЭТТ\""
+Comment1 "НВТЦ 435332.01 РТОВ ЭЗ"
+Comment2 "Филатов"
+Comment3 "Сизякин"
+Comment4 "Попель"
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 1450 1950
+Connection ~ 1450 2295
+Connection ~ 1645 1945
+Connection ~ 1730 2805
+Connection ~ 1730 3650
+Connection ~ 1755 6440
+Connection ~ 1755 6640
+Connection ~ 1835 5735
+Connection ~ 1840 5735
+Connection ~ 1915 6440
+Connection ~ 1915 6640
+Connection ~ 2080 6440
+Connection ~ 2080 6640
+Connection ~ 2090 3105
+Connection ~ 2090 3950
+Connection ~ 2140 5030
+Connection ~ 2140 5490
+Connection ~ 2140 6025
+Connection ~ 2245 6440
+Connection ~ 2245 6640
+Connection ~ 2440 2805
+Connection ~ 2440 3650
+Connection ~ 2660 1945
+Connection ~ 2660 2295
+Connection ~ 3570 1850
+Connection ~ 4770 2450
+Connection ~ 5545 3045
+Connection ~ 7120 2835
+Connection ~ 7480 4920
+Connection ~ 7750 4620
+NoConn ~ 7270 2540
+NoConn ~ 7380 4570
+NoConn ~ 7420 2540
+Wire Wire Line
+	1450 1950 1645 1950
+Wire Wire Line
+	1450 2030 1450 1950
+Wire Wire Line
+	1450 2230 1450 2295
+Wire Wire Line
+	1565 6440 1755 6440
+Wire Wire Line
+	1565 6640 1755 6640
+Wire Wire Line
+	1645 1950 1645 1945
+Wire Wire Line
+	1645 2295 1450 2295
+Wire Wire Line
+	1730 2805 1790 2805
+Wire Wire Line
+	1730 2885 1730 2805
+Wire Wire Line
+	1730 3085 1730 3105
+Wire Wire Line
+	1730 3105 2090 3105
+Wire Wire Line
+	1730 3650 1790 3650
+Wire Wire Line
+	1730 3730 1730 3650
+Wire Wire Line
+	1730 3930 1730 3950
+Wire Wire Line
+	1730 3950 2090 3950
+Wire Wire Line
+	1755 6440 1915 6440
+Wire Wire Line
+	1795 5735 1835 5735
+Wire Wire Line
+	1835 5735 1840 5735
+Wire Wire Line
+	1835 5790 1835 5735
+Wire Wire Line
+	1835 5990 1835 6025
+Wire Wire Line
+	1915 6640 1755 6640
+Wire Wire Line
+	2080 6440 1915 6440
+Wire Wire Line
+	2080 6440 2245 6440
+Wire Wire Line
+	2080 6640 1915 6640
+Wire Wire Line
+	2080 6640 2245 6640
+Wire Wire Line
+	2090 5030 2140 5030
+Wire Wire Line
+	2140 5030 2140 5140
+Wire Wire Line
+	2140 5030 2305 5030
+Wire Wire Line
+	2140 5440 2140 5490
+Wire Wire Line
+	2140 5490 2140 5535
+Wire Wire Line
+	2140 5935 2140 6025
+Wire Wire Line
+	2140 6025 2245 6025
+Wire Wire Line
+	2240 5490 2140 5490
+Wire Wire Line
+	2245 6440 2410 6440
+Wire Wire Line
+	2245 6640 2410 6640
+Wire Wire Line
+	2390 2805 2440 2805
+Wire Wire Line
+	2390 3650 2440 3650
+Wire Wire Line
+	2440 2805 2440 2855
+Wire Wire Line
+	2440 3055 2440 3105
+Wire Wire Line
+	2440 3105 2090 3105
+Wire Wire Line
+	2440 3650 2440 3700
+Wire Wire Line
+	2440 3900 2440 3950
+Wire Wire Line
+	2440 3950 2090 3950
+Wire Wire Line
+	2445 1945 2660 1945
+Wire Wire Line
+	2445 2295 2660 2295
+Wire Wire Line
+	2660 1930 2680 1930
+Wire Wire Line
+	2660 1945 2660 1930
+Wire Wire Line
+	2660 2010 2660 1945
+Wire Wire Line
+	2660 2210 2660 2295
+Wire Wire Line
+	2660 2295 2660 2330
+Wire Wire Line
+	3570 1850 3615 1850
+Wire Wire Line
+	4770 2500 4770 2450
+Wire Wire Line
+	4770 2600 4770 2650
+Wire Wire Line
+	4770 2650 4970 2650
+Wire Wire Line
+	4860 2500 4770 2500
+Wire Wire Line
+	4860 2595 4860 2500
+Wire Wire Line
+	4970 2650 4970 2750
+Wire Wire Line
+	5010 2595 4860 2595
+Wire Wire Line
+	5305 1870 5330 1870
+Wire Wire Line
+	5305 1950 5305 1870
+Wire Wire Line
+	5470 3045 5545 3045
+Wire Wire Line
+	5545 3045 5615 3045
+Wire Wire Line
+	5545 3075 5545 3045
+Wire Wire Line
+	7020 2835 7120 2835
+Wire Wire Line
+	7120 2540 7120 2615
+Wire Wire Line
+	7120 2815 7120 2835
+Wire Wire Line
+	7120 2835 7120 2850
+Wire Wire Line
+	7380 4920 7480 4920
+Wire Wire Line
+	7440 4620 7440 4680
+Wire Wire Line
+	7440 4680 7380 4680
+Wire Wire Line
+	7480 4230 7480 4340
+Wire Wire Line
+	7480 4340 7380 4340
+Wire Wire Line
+	7480 4920 7480 5030
+Wire Wire Line
+	7480 4920 7510 4920
+Wire Wire Line
+	7710 4920 7750 4920
+Wire Wire Line
+	7750 4560 7750 4620
+Wire Wire Line
+	7750 4620 7440 4620
+Wire Wire Line
+	7750 4920 7750 5040
+Wire Notes Line
+	1180 4465 2865 4465
+Wire Notes Line
+	1180 6885 1180 4465
+Wire Notes Line
+	1195 1350 1195 4315
+Wire Notes Line
+	1195 1350 2985 1350
+Wire Notes Line
+	1230 8150 2835 8150
+Wire Notes Line
+	1230 9105 1230 8150
+Wire Notes Line
+	1835 6325 2515 6325
+Wire Notes Line
+	1835 6730 1835 6325
+Wire Notes Line
+	2515 6325 2515 6730
+Wire Notes Line
+	2515 6745 1835 6745
+Wire Notes Line
+	2835 8150 2835 9105
+Wire Notes Line
+	2835 9105 1230 9105
+Wire Notes Line
+	2865 4465 2865 6885
+Wire Notes Line
+	2865 6885 1180 6885
+Wire Notes Line
+	2985 1350 2985 4315
+Wire Notes Line
+	2985 4315 1195 4315
+Wire Notes Line
+	3210 4460 3210 5975
+Wire Notes Line
+	3210 5975 5695 5975
+Wire Notes Line
+	3215 1355 3215 3805
+Wire Notes Line
+	3215 3805 6045 3805
+Wire Notes Line
+	5695 4460 3210 4460
+Wire Notes Line
+	5695 5975 5695 4460
+Wire Notes Line
+	6045 1355 3215 1355
+Wire Notes Line
+	6045 3805 6045 1355
+Wire Notes Line
+	6290 1355 6290 3255
+Wire Notes Line
+	6290 1355 7890 1355
+Wire Notes Line
+	6290 3255 7890 3255
+Wire Notes Line
+	7890 1355 7890 3255
+Text Notes 1485 11255 0    91   ~ 0
+Зарицкий
+Text Notes 1665 8250 0    50   ~ 0
+Монтажные отверстия
+Text Notes 1695 1460 0    50   ~ 0
+Питание управления
+Text Notes 1910 4565 0    50   ~ 0
+Стойка\n
+Text Notes 4140 4555 0    50   ~ 0
+Силовые разъёмы
+Text Notes 4540 1445 0    50   ~ 0
+Драйвер
+Text Notes 6870 1445 0    50   ~ 0
+Датчик тока\n
+Text GLabel 1565 6440 0    50   Input ~ 0
+DC+
+Text GLabel 1565 6640 0    50   Input ~ 0
+DC-
+Text GLabel 1795 5735 0    50   Input ~ 0
+G_IGBT
+Text GLabel 2090 5030 0    50   Input ~ 0
+DC+
+Text GLabel 2240 5490 2    50   Input ~ 0
+D_IGBT
+Text GLabel 2245 6025 2    50   Input ~ 0
+DC-
+Text GLabel 2305 5030 2    50   Output ~ 0
+OUT+
+Text GLabel 2680 1930 2    28   Input ~ 0
++15V_H
+Text GLabel 3480 2590 1    50   Input ~ 0
+IN-
+Text GLabel 3615 1850 2    50   Input ~ 0
+Vcc
+Text GLabel 3630 4900 0    50   Input ~ 0
+DC+
+Text GLabel 3630 5000 0    50   Input ~ 0
+DC+
+Text GLabel 3630 5100 0    50   Input ~ 0
+DC+
+Text GLabel 3630 5200 0    50   Input ~ 0
+DC+
+Text GLabel 3635 5545 0    50   Input ~ 0
+DC-
+Text GLabel 3635 5645 0    50   Input ~ 0
+DC-
+Text GLabel 3635 5745 0    50   Input ~ 0
+DC-
+Text GLabel 3635 5845 0    50   Input ~ 0
+DC-
+Text GLabel 4120 1850 0    50   Input ~ 0
+Vcc
+Text GLabel 4120 2300 0    50   Input ~ 0
+IN+
+Text GLabel 4120 2450 0    50   Input ~ 0
+IN-
+Text GLabel 4120 2600 0    50   Output ~ 0
+RDY
+Text GLabel 4120 2750 0    50   Output ~ 0
+FLT
+Text GLabel 4120 2900 0    50   Input ~ 0
+RST
+Text GLabel 4130 4900 2    50   Input ~ 0
+DC+
+Text GLabel 4130 5000 2    50   Input ~ 0
+DC+
+Text GLabel 4130 5100 2    50   Input ~ 0
+DC+
+Text GLabel 4130 5200 2    50   Input ~ 0
+DC+
+Text GLabel 4135 5545 2    50   Input ~ 0
+DC-
+Text GLabel 4135 5645 2    50   Input ~ 0
+DC-
+Text GLabel 4135 5745 2    50   Input ~ 0
+DC-
+Text GLabel 4135 5845 2    50   Input ~ 0
+DC-
+Text GLabel 4220 3470 0    50   Output ~ 0
+IN-
+Text GLabel 4220 3670 0    50   Input ~ 0
+FLT
+Text GLabel 4720 3370 2    50   Input ~ 0
+Measure
+Text GLabel 4720 3470 2    50   Output ~ 0
+IN+
+Text GLabel 4720 3570 2    50   Output ~ 0
+RST
+Text GLabel 4720 3670 2    50   Input ~ 0
+RDY
+Text GLabel 4750 4900 0    50   Input ~ 0
+OUT+
+Text GLabel 4750 5000 0    50   Input ~ 0
+OUT+
+Text GLabel 4750 5100 0    50   Input ~ 0
+OUT+
+Text GLabel 4750 5200 0    50   Input ~ 0
+OUT+
+Text GLabel 4755 5540 0    50   Input ~ 0
+OUT-
+Text GLabel 4755 5640 0    50   Input ~ 0
+OUT-
+Text GLabel 4755 5740 0    50   Input ~ 0
+OUT-
+Text GLabel 4755 5840 0    50   Input ~ 0
+OUT-
+Text GLabel 4770 1850 2    50   Input ~ 0
++15V_H
+Text GLabel 4970 2750 2    50   Input ~ 0
+G_IGBT
+Text GLabel 4970 2900 2    50   Input ~ 0
+G_IGBT
+Text GLabel 5010 2595 2    50   Input ~ 0
+Desat
+Text GLabel 5250 4900 2    50   Input ~ 0
+OUT+
+Text GLabel 5250 5000 2    50   Input ~ 0
+OUT+
+Text GLabel 5250 5100 2    50   Input ~ 0
+OUT+
+Text GLabel 5250 5200 2    50   Input ~ 0
+OUT+
+Text GLabel 5255 5540 2    50   Input ~ 0
+OUT-
+Text GLabel 5255 5640 2    50   Input ~ 0
+OUT-
+Text GLabel 5255 5740 2    50   Input ~ 0
+OUT-
+Text GLabel 5255 5840 2    50   Input ~ 0
+OUT-
+Text GLabel 5330 1870 2    50   Input ~ 0
++15V_H
+Text GLabel 5370 2450 2    50   Input ~ 0
+D_IGBT
+Text GLabel 5470 2845 1    50   Input ~ 0
+Desat
+Text GLabel 5615 2845 1    50   Input ~ 0
+Desat
+Text GLabel 6670 1790 0    50   Input ~ 0
+OUT-
+Text GLabel 6670 1940 0    50   Input ~ 0
+OUT-
+Text GLabel 6670 2090 0    50   Input ~ 0
+OUT-
+Text GLabel 6670 2240 0    50   Input ~ 0
+OUT-
+Text GLabel 6710 4230 0    50   Input ~ 0
+OUT-
+Text GLabel 6710 4340 0    50   Input ~ 0
+OUT-
+Text GLabel 6710 4460 0    50   Input ~ 0
+OUT-
+Text GLabel 6710 4580 0    50   Input ~ 0
+OUT-
+Text GLabel 6710 4690 0    50   Input ~ 0
+D_IGBT
+Text GLabel 6710 4800 0    50   Input ~ 0
+D_IGBT
+Text GLabel 6710 4920 0    50   Input ~ 0
+D_IGBT
+Text GLabel 6710 5040 0    50   Input ~ 0
+D_IGBT
+Text GLabel 7020 2835 0    50   Input ~ 0
+Measure
+Text GLabel 7570 1790 2    50   Input ~ 0
+D_IGBT
+Text GLabel 7570 1940 2    50   Input ~ 0
+D_IGBT
+Text GLabel 7570 2090 2    50   Input ~ 0
+D_IGBT
+Text GLabel 7570 2240 2    50   Input ~ 0
+D_IGBT
+Text GLabel 7750 4560 1    50   Input ~ 0
+Measure
+$Comp
+L power:+15V #PWR03
+U 1 1 60D827CA
+P 1450 1950
+F 0 "#PWR03" H 1450 1800 50  0001 C CNN
+F 1 "+15V" H 1465 2123 50  0000 C CNN
+F 2 "" H 1450 1950 50  0001 C CNN
+F 3 "" H 1450 1950 50  0001 C CNN
+	1    1450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR039
+U 1 1 60DC4D23
+P 1730 2805
+F 0 "#PWR039" H 1730 2655 50  0001 C CNN
+F 1 "+15V" H 1590 2875 50  0000 C CNN
+F 2 "" H 1730 2805 50  0001 C CNN
+F 3 "" H 1730 2805 50  0001 C CNN
+	1    1730 2805
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 6155A204
+P 1730 3650
+F 0 "#PWR02" H 1730 3500 50  0001 C CNN
+F 1 "+5V" H 1635 3730 47  0000 C CNN
+F 2 "" H 1730 3650 50  0001 C CNN
+F 3 "" H 1730 3650 50  0001 C CNN
+	1    1730 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR041
+U 1 1 60DCCB6D
+P 2440 2805
+F 0 "#PWR041" H 2440 2655 50  0001 C CNN
+F 1 "+5V" H 2535 2880 47  0000 C CNN
+F 2 "" H 2440 2805 50  0001 C CNN
+F 3 "" H 2440 2805 50  0001 C CNN
+	1    2440 2805
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR09
+U 1 1 6157675A
+P 2440 3650
+F 0 "#PWR09" H 2440 3500 50  0001 C CNN
+F 1 "+3.3V" H 2575 3730 47  0000 C CNN
+F 2 "" H 2440 3650 50  0001 C CNN
+F 3 "" H 2440 3650 50  0001 C CNN
+	1    2440 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR011
+U 1 1 615798A6
+P 3370 1850
+F 0 "#PWR011" H 3370 1700 50  0001 C CNN
+F 1 "+3.3V" H 3350 1990 50  0000 C CNN
+F 2 "" H 3370 1850 50  0001 C CNN
+F 3 "" H 3370 1850 50  0001 C CNN
+	1    3370 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR01
+U 1 1 60E10785
+P 4220 3370
+F 0 "#PWR01" H 4220 3220 50  0001 C CNN
+F 1 "+15V" V 4215 3585 50  0000 C CNN
+F 2 "" H 4220 3370 50  0001 C CNN
+F 3 "" H 4220 3370 50  0001 C CNN
+	1    4220 3370
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 60E4A5D7
+P 6820 2540
+F 0 "#PWR05" H 6820 2390 50  0001 C CNN
+F 1 "+5V" H 6870 2690 50  0000 C CNN
+F 2 "" H 6820 2540 50  0001 C CNN
+F 3 "" H 6820 2540 50  0001 C CNN
+	1    6820 2540
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 00000000
+P 7480 5030
+F 0 "#PWR?" H 7480 4880 50  0001 C CNN
+F 1 "+5V" H 7530 5180 50  0000 C CNN
+F 2 "" H 7480 5030 50  0001 C CNN
+F 3 "" H 7480 5030 50  0001 C CNN
+	1    7480 5030
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDA #PWR04
+U 1 1 60E84553
+P 1450 2295
+F 0 "#PWR04" H 1450 2045 50  0001 C CNN
+F 1 "GNDA" H 1550 2155 50  0000 R CNN
+F 2 "" H 1450 2295 50  0001 C CNN
+F 3 "" H 1450 2295 50  0001 C CNN
+	1    1450 2295
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0106
+U 1 1 61172E7A
+P 1835 6025
+F 0 "#PWR0106" H 1835 5775 50  0001 C CNN
+F 1 "GND2" H 1835 5890 50  0000 C CNN
+F 2 "" H 1835 6025 50  0001 C CNN
+F 3 "" H 1835 6025 50  0001 C CNN
+	1    1835 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR040
+U 1 1 60DC8C3A
+P 2090 3105
+F 0 "#PWR040" H 2090 2855 50  0001 C CNN
+F 1 "GNDA" H 2185 2970 47  0000 R CNN
+F 2 "" H 2090 3105 50  0001 C CNN
+F 3 "" H 2090 3105 50  0001 C CNN
+	1    2090 3105
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR07
+U 1 1 6155A1FE
+P 2090 3950
+F 0 "#PWR07" H 2090 3700 50  0001 C CNN
+F 1 "GNDA" H 2185 3810 47  0000 R CNN
+F 2 "" H 2090 3950 50  0001 C CNN
+F 3 "" H 2090 3950 50  0001 C CNN
+	1    2090 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR0109
+U 1 1 611F2027
+P 2140 6025
+F 0 "#PWR0109" H 2140 5775 50  0001 C CNN
+F 1 "GND2" H 2140 5890 50  0000 C CNN
+F 2 "" H 2140 6025 50  0001 C CNN
+F 3 "" H 2140 6025 50  0001 C CNN
+	1    2140 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR08
+U 1 1 60D1068D
+P 2660 2330
+F 0 "#PWR08" H 2660 2080 50  0001 C CNN
+F 1 "GND2" H 2760 2195 50  0000 R CNN
+F 2 "" H 2660 2330 50  0001 C CNN
+F 3 "" H 2660 2330 50  0001 C CNN
+	1    2660 2330
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR013
+U 1 1 60EF4786
+P 3480 2790
+F 0 "#PWR013" H 3480 2540 50  0001 C CNN
+F 1 "GNDA" H 3585 2650 50  0000 R CNN
+F 2 "" H 3480 2790 50  0001 C CNN
+F 3 "" H 3480 2790 50  0001 C CNN
+	1    3480 2790
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR031
+U 1 1 60E67068
+P 3570 2050
+F 0 "#PWR031" H 3570 1800 50  0001 C CNN
+F 1 "GNDA" H 3670 1910 50  0000 R CNN
+F 2 "" H 3570 2050 50  0001 C CNN
+F 3 "" H 3570 2050 50  0001 C CNN
+	1    3570 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0101
+U 1 1 6113E00F
+P 4120 2000
+F 0 "#PWR0101" H 4120 1750 50  0001 C CNN
+F 1 "GNDA" V 4125 1872 50  0000 R CNN
+F 2 "" H 4120 2000 50  0001 C CNN
+F 3 "" H 4120 2000 50  0001 C CNN
+	1    4120 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR0102
+U 1 1 6113F679
+P 4120 2150
+F 0 "#PWR0102" H 4120 1900 50  0001 C CNN
+F 1 "GNDA" V 4125 2022 50  0000 R CNN
+F 2 "" H 4120 2150 50  0001 C CNN
+F 3 "" H 4120 2150 50  0001 C CNN
+	1    4120 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR012
+U 1 1 60EBBB29
+P 4220 3570
+F 0 "#PWR012" H 4220 3320 50  0001 C CNN
+F 1 "GNDA" V 4220 3455 50  0000 R CNN
+F 2 "" H 4220 3570 50  0001 C CNN
+F 3 "" H 4220 3570 50  0001 C CNN
+	1    4220 3570
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND2 #PWR0103
+U 1 1 61163EB7
+P 4770 2000
+F 0 "#PWR0103" H 4770 1750 50  0001 C CNN
+F 1 "GND2" V 4765 1795 50  0000 C CNN
+F 2 "" H 4770 2000 50  0001 C CNN
+F 3 "" H 4770 2000 50  0001 C CNN
+	1    4770 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND2 #PWR015
+U 1 1 60CDD97B
+P 4770 2150
+F 0 "#PWR015" H 4770 1900 50  0001 C CNN
+F 1 "GND2" V 4765 1945 50  0000 C CNN
+F 2 "" H 4770 2150 50  0001 C CNN
+F 3 "" H 4770 2150 50  0001 C CNN
+	1    4770 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND2 #PWR0104
+U 1 1 61164E1E
+P 4770 2300
+F 0 "#PWR0104" H 4770 2050 50  0001 C CNN
+F 1 "GND2" V 4770 2090 50  0000 C CNN
+F 2 "" H 4770 2300 50  0001 C CNN
+F 3 "" H 4770 2300 50  0001 C CNN
+	1    4770 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND2 #PWR0105
+U 1 1 61168676
+P 5305 2150
+F 0 "#PWR0105" H 5305 1900 50  0001 C CNN
+F 1 "GND2" H 5305 2015 50  0000 C CNN
+F 2 "" H 5305 2150 50  0001 C CNN
+F 3 "" H 5305 2150 50  0001 C CNN
+	1    5305 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR016
+U 1 1 60CE2345
+P 5545 3075
+F 0 "#PWR016" H 5545 2825 50  0001 C CNN
+F 1 "GND2" H 5650 2935 50  0000 R CNN
+F 2 "" H 5545 3075 50  0001 C CNN
+F 3 "" H 5545 3075 50  0001 C CNN
+	1    5545 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR06
+U 1 1 60E45B2F
+P 6970 2540
+F 0 "#PWR06" H 6970 2290 50  0001 C CNN
+F 1 "GNDA" H 7070 2395 50  0000 R CNN
+F 2 "" H 6970 2540 50  0001 C CNN
+F 3 "" H 6970 2540 50  0001 C CNN
+	1    6970 2540
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR010
+U 1 1 60E58F2C
+P 7120 3050
+F 0 "#PWR010" H 7120 2800 50  0001 C CNN
+F 1 "GNDA" H 7225 2915 50  0000 R CNN
+F 2 "" H 7120 3050 50  0001 C CNN
+F 3 "" H 7120 3050 50  0001 C CNN
+	1    7120 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 00000000
+P 7480 4230
+F 0 "#PWR?" H 7480 3980 50  0001 C CNN
+F 1 "GNDA" H 7585 4095 50  0000 R CNN
+F 2 "" H 7480 4230 50  0001 C CNN
+F 3 "" H 7480 4230 50  0001 C CNN
+	1    7480 4230
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 00000000
+P 7750 5040
+F 0 "#PWR?" H 7750 4790 50  0001 C CNN
+F 1 "GNDA" H 7855 4905 50  0000 R CNN
+F 2 "" H 7750 5040 50  0001 C CNN
+F 3 "" H 7750 5040 50  0001 C CNN
+	1    7750 5040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 60E236CA
+P 1835 5890
+F 0 "R2" H 1670 5935 50  0000 L CNN
+F 1 "10k" H 1650 5860 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1835 5890 50  0001 C CNN
+F 3 "~" H 1835 5890 50  0001 C CNN
+	1    1835 5890
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 60C8286D
+P 3470 1850
+F 0 "R1" V 3535 1800 50  0000 L CNN
+F 1 "10" V 3465 1850 39  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3470 1850 50  0001 C CNN
+F 3 "~" H 3470 1850 50  0001 C CNN
+	1    3470 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 60EEB585
+P 3480 2690
+F 0 "R7" H 3330 2650 50  0000 L CNN
+F 1 "Jumper" H 3305 2730 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3480 2690 50  0001 C CNN
+F 3 "~" H 3480 2690 50  0001 C CNN
+	1    3480 2690
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 60C83553
+P 4870 2450
+F 0 "R4" V 4935 2400 50  0000 L CNN
+F 1 "12k" V 4865 2445 39  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4870 2450 50  0001 C CNN
+F 3 "~" H 4870 2450 50  0001 C CNN
+	1    4870 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 60C830B7
+P 4870 2750
+F 0 "R5" H 4929 2796 50  0001 L CNN
+F 1 "3.9" V 4865 2745 39  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4870 2750 50  0001 C CNN
+F 3 "~" H 4870 2750 50  0001 C CNN
+	1    4870 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 60C83559
+P 4870 2900
+F 0 "R6" H 4929 2946 50  0001 L CNN
+F 1 "3.9" V 4865 2895 39  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4870 2900 50  0001 C CNN
+F 3 "~" H 4870 2900 50  0001 C CNN
+	1    4870 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 61B8E35D
+P 5070 2450
+F 0 "R8" V 5140 2400 50  0000 L CNN
+F 1 "0" V 5065 2445 39  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5070 2450 50  0001 C CNN
+F 3 "~" H 5070 2450 50  0001 C CNN
+	1    5070 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 60E4F392
+P 7120 2715
+F 0 "R3" H 7175 2760 50  0000 L CNN
+F 1 "200" H 7179 2670 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7120 2715 50  0001 C CNN
+F 3 "~" H 7120 2715 50  0001 C CNN
+	1    7120 2715
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 60C83E00
+P 5270 2450
+F 0 "D5" H 5270 2375 50  0000 C CNN
+F 1 "MURS360T3G" H 5265 2525 28  0001 C CNN
+F 2 "Diode_SMD:D_SMC" V 5270 2450 50  0001 C CNN
+F 3 "~" V 5270 2450 50  0001 C CNN
+	1    5270 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Zener_Small D4
+U 1 1 60C851C0
+P 5615 2945
+F 0 "D4" V 5610 3010 50  0000 L CNN
+F 1 "BZT52C10-7-F" V 5690 2985 28  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 5615 2945 50  0001 C CNN
+F 3 "~" V 5615 2945 50  0001 C CNN
+	1    5615 2945
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60DA33FE
+P 1520 8525
+F 0 "H2" H 1465 8650 50  0000 L CNN
+F 1 "MountingHole" H 1270 8400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 1520 8525 50  0001 C CNN
+F 3 "~" H 1520 8525 50  0001 C CNN
+	1    1520 8525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60E6272A
+P 1525 8890
+F 0 "H1" H 1470 9015 50  0000 L CNN
+F 1 "MountingHole" H 1275 8765 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 1525 8890 50  0001 C CNN
+F 3 "~" H 1525 8890 50  0001 C CNN
+	1    1525 8890
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60E5F440
+P 2030 8525
+F 0 "H3" H 1975 8650 50  0000 L CNN
+F 1 "MountingHole" H 1780 8400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 2030 8525 50  0001 C CNN
+F 3 "~" H 2030 8525 50  0001 C CNN
+	1    2030 8525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60E60DC5
+P 2045 8895
+F 0 "H4" H 1990 9020 50  0000 L CNN
+F 1 "MountingHole" H 1795 8770 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 2045 8895 50  0001 C CNN
+F 3 "~" H 2045 8895 50  0001 C CNN
+	1    2045 8895
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60EF1843
+P 2550 8525
+F 0 "H6" H 2495 8650 50  0000 L CNN
+F 1 "MountingHole" H 2300 8400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 2550 8525 50  0001 C CNN
+F 3 "~" H 2550 8525 50  0001 C CNN
+	1    2550 8525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60EEEEF1
+P 2550 8895
+F 0 "H5" H 2495 9020 50  0000 L CNN
+F 1 "MountingHole" H 2300 8770 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 2550 8895 50  0001 C CNN
+F 3 "~" H 2550 8895 50  0001 C CNN
+	1    2550 8895
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 60D1C995
+P 1450 2130
+F 0 "C2" H 1260 2165 50  0000 L CNN
+F 1 "4.7u" H 1235 2065 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1450 2130 50  0001 C CNN
+F 3 "~" H 1450 2130 50  0001 C CNN
+	1    1450 2130
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 60DADEA5
+P 1730 2985
+F 0 "C17" H 1500 3065 50  0000 L CNN
+F 1 "10u" H 1650 2985 47  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1730 2985 50  0001 C CNN
+F 3 "~" H 1730 2985 50  0001 C CNN
+	1    1730 2985
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 6155A1E9
+P 1730 3830
+F 0 "C12" H 1505 3870 50  0000 L CNN
+F 1 "10u" H 1645 3795 47  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1730 3830 50  0001 C CNN
+F 3 "~" H 1730 3830 50  0001 C CNN
+	1    1730 3830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 60E25E22
+P 1755 6540
+F 0 "C1" H 1590 6600 50  0000 L CNN
+F 1 "2u" H 1590 6525 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L31.5mm_W13.0mm_P27.50mm_MKS4" H 1755 6540 50  0001 C CNN
+F 3 "~" H 1755 6540 50  0001 C CNN
+	1    1755 6540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 60E5F360
+P 1915 6540
+F 0 "C4" H 1865 6710 50  0000 L CNN
+F 1 "0.22u" H 1805 6360 50  0001 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 1915 6540 50  0001 C CNN
+F 3 "~" H 1915 6540 50  0001 C CNN
+	1    1915 6540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 60E6138B
+P 2080 6540
+F 0 "C5" H 2025 6710 50  0000 L CNN
+F 1 "0.22u" H 2055 6375 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 2080 6540 50  0001 C CNN
+F 3 "~" H 2080 6540 50  0001 C CNN
+	1    2080 6540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 60E6FA73
+P 2245 6540
+F 0 "C8" H 2190 6710 50  0000 L CNN
+F 1 "0.22u" H 2140 6365 50  0001 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 2245 6540 50  0001 C CNN
+F 3 "~" H 2245 6540 50  0001 C CNN
+	1    2245 6540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 60E723A1
+P 2410 6540
+F 0 "C11" H 2335 6710 50  0000 L CNN
+F 1 "0.22u" H 2500 6545 50  0001 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder" H 2410 6540 50  0001 C CNN
+F 3 "~" H 2410 6540 50  0001 C CNN
+	1    2410 6540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 60DAA15C
+P 2440 2955
+F 0 "C18" H 2525 3030 50  0000 L CNN
+F 1 "10u" H 2670 2955 47  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2440 2955 50  0001 C CNN
+F 3 "~" H 2440 2955 50  0001 C CNN
+	1    2440 2955
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 6155A1E3
+P 2440 3800
+F 0 "C13" H 2505 3840 50  0000 L CNN
+F 1 "10u" H 2650 3770 47  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2440 3800 50  0001 C CNN
+F 3 "~" H 2440 3800 50  0001 C CNN
+	1    2440 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 60D79CC2
+P 2660 2110
+F 0 "C6" H 2740 2150 50  0000 L CNN
+F 1 "4.7u" H 2740 2070 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 2660 2110 50  0001 C CNN
+F 3 "~" H 2660 2110 50  0001 C CNN
+	1    2660 2110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 60C81834
+P 3570 1950
+F 0 "C7" H 3375 1960 50  0000 L CNN
+F 1 "0.1u" H 3345 1885 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3570 1950 50  0001 C CNN
+F 3 "~" H 3570 1950 50  0001 C CNN
+	1    3570 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 60C81CFD
+P 5305 2050
+F 0 "C10" H 5395 2095 50  0000 L CNN
+F 1 "1u" H 5400 2015 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5305 2050 50  0001 C CNN
+F 3 "~" H 5305 2050 50  0001 C CNN
+	1    5305 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 60C823EB
+P 5470 2945
+F 0 "C9" H 5290 2950 50  0000 L CNN
+F 1 "220p" H 5450 2880 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5470 2945 50  0001 C CNN
+F 3 "~" H 5470 2945 50  0001 C CNN
+	1    5470 2945
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 60E559C8
+P 7120 2950
+F 0 "C3" H 7210 2995 50  0000 L CNN
+F 1 "1u" H 7212 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7120 2950 50  0001 C CNN
+F 3 "~" H 7120 2950 50  0001 C CNN
+	1    7120 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 00000000
+P 7610 4920
+F 0 "C?" V 7720 4870 50  0000 L CNN
+F 1 "10u" V 7490 4850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7610 4920 50  0001 C CNN
+F 3 "~" H 7610 4920 50  0001 C CNN
+	1    7610 4920
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 00000000
+P 7750 4720
+F 0 "C?" V 7860 4670 50  0000 L CNN
+F 1 "1n" V 7630 4650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7750 4720 50  0001 C CNN
+F 3 "~" H 7750 4720 50  0001 C CNN
+	1    7750 4720
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 611E255B
+P 2140 5290
+F 0 "D1" V 2094 5370 50  0000 L CNN
+F 1 "VS-60EPF06-M3" V 2185 5370 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-247-2_Vertical" H 2140 5290 50  0001 C CNN
+F 3 "~" H 2140 5290 50  0001 C CNN
+	1    2140 5290
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NIGBT_GCE Q1
+U 1 1 60E14305
+P 2040 5735
+F 0 "Q1" H 2230 5735 50  0000 L CNN
+F 1 "HGTG20N60A4" H 2230 5690 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 2240 5835 50  0001 C CNN
+F 3 "~" H 2040 5735 50  0001 C CNN
+	1    2040 5735
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 60F13F44
+P 3830 5000
+F 0 "J1" H 3880 5317 50  0000 C CNN
+F 1 "DC+" H 3880 5226 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 3830 5000 50  0001 C CNN
+F 3 "~" H 3830 5000 50  0001 C CNN
+	1    3830 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J2
+U 1 1 60EF8068
+P 3835 5645
+F 0 "J2" H 3885 5962 50  0000 C CNN
+F 1 "DC-" H 3885 5871 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 3835 5645 50  0001 C CNN
+F 3 "~" H 3835 5645 50  0001 C CNN
+	1    3835 5645
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J3
+U 1 1 60E5A624
+P 4420 3470
+F 0 "J3" H 4470 3787 50  0000 C CNN
+F 1 "Control Connector" H 4470 3696 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 4420 3470 50  0001 C CNN
+F 3 "~" H 4420 3470 50  0001 C CNN
+	1    4420 3470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J5
+U 1 1 60F18155
+P 4950 5000
+F 0 "J5" H 5000 5317 50  0000 C CNN
+F 1 "OUT+" H 5000 5226 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 4950 5000 50  0001 C CNN
+F 3 "~" H 4950 5000 50  0001 C CNN
+	1    4950 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J4
+U 1 1 60F1CEF5
+P 4955 5640
+F 0 "J4" H 5005 5957 50  0000 C CNN
+F 1 "OUT-" H 5005 5866 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal" H 4955 5640 50  0001 C CNN
+F 3 "~" H 4955 5640 50  0001 C CNN
+	1    4955 5640
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM1117-ADJ U1
+U 1 1 611DDA14
+P 2090 2805
+F 0 "U1" H 2090 3047 50  0000 C CNN
+F 1 "LM1117GS-5.0" H 2090 2956 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 2090 2805 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 2090 2805 50  0001 C CNN
+	1    2090 2805
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM1117-ADJ U2
+U 1 1 6155A20C
+P 2090 3650
+F 0 "U2" H 2090 3892 50  0000 C CNN
+F 1 "LM1117GS-3.3" H 2090 3801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 2090 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 2090 3650 50  0001 C CNN
+	1    2090 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Linear_Regulator:TMA1515S D8
+U 1 1 61979B28
+P 2045 1695
+F 0 "D8" H 2045 1670 50  0000 C CNN
+F 1 "TMA1515S" H 2045 1579 50  0000 C CNN
+F 2 "TRACO:TMA1515S" H 2045 1695 50  0001 C CNN
+F 3 "" H 2045 1695 50  0001 C CNN
+	1    2045 1695
+	1    0    0    -1  
+$EndComp
+$Comp
+L Current_Sensor:NSM2011 D?
+U 1 1 00000000
+P 7040 4120
+F 0 "D?" H 7045 4340 50  0000 C CNN
+F 1 "NSM2011" H 7045 4240 50  0000 C CNN
+F 2 "" H 7050 4270 50  0001 C CNN
+F 3 "" H 7050 4270 50  0001 C CNN
+	1    7040 4120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Драйвер-IGBT-rescue:LPSR_50-NP-LPSR-cache-Драйвер-IGBT-rescue-Драйвер-IGBT-rescue D6
+U 1 1 60E36BDD
+P 7120 1490
+F 0 "D6" H 7120 1455 50  0000 C CNN
+F 1 "LPSR_50-NP" H 7120 1364 50  0000 C CNN
+F 2 "LPSR:LPSR_50" H 7120 1490 50  0001 C CNN
+F 3 "" H 7120 1490 50  0001 C CNN
+	1    7120 1490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Драйвер-IGBT-rescue:ISO54-Driver-Driver_SiC-rescue-Драйвер-IGBT-rescue-Драйвер-IGBT-rescue D2
+U 1 1 60C7D249
+P 4470 1600
+F 0 "D2" H 4445 1615 50  0000 C CNN
+F 1 "ISO54-Driver" H 4445 1524 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 4470 1600 50  0001 C CNN
+F 3 "" H 4470 1600 50  0001 C CNN
+	1    4470 1600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
